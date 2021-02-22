@@ -14,13 +14,11 @@ public class Dice {
     private int i;
 
     public void dice(){
-        System.out.println("Enter a dice to roll: d?");
+        System.out.println("Enter a dice (# of faces) to roll: ");
         diceType = faceNumber.nextInt();
-        System.out.println(diceType);
 
         System.out.println("\nHow many times would you like to roll: ");
         rollCount = diceRoll.nextInt();
-        System.out.println(rollCount);
 
         for(i = 0;i < rollCount;i++) {
             diceNumber = dice.nextInt(diceType) + 1;
