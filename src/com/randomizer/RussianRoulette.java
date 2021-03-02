@@ -15,21 +15,18 @@ public class RussianRoulette {
 
     public void chanceGame() {
 
-        System.out.println("You feelin lucky, punk!\n(Choose number 1-6)\nor type end to stop");
+        System.out.println("You feelin lucky, punk!\n(Choose number 1-6)");
         finalChoice = choice.nextInt();
 
         killShot = kill.nextInt(6) + 1;
-        String end = null;
-        do {
+
+        //do {
             if (killShot == finalChoice) {
                 System.out.println("BANG! You are dead.");
             } else {
                 System.out.println("You live to fight another day!");
             }
-            System.out.println("Are you yeller! (Type end to stop!)");
-            goodChoice = option.nextLine();
-        } while (goodChoice != null);
-
+        //} while (true);
     }
 }
 

@@ -8,8 +8,8 @@ public class Main {
 
     public static void main(String[] args){
         //Dice diceRoll = new Dice();
-        RussianRoulette chance = new RussianRoulette();
         //diceRoll.dice();
+        RussianRoulette chance = new RussianRoulette();
         chance.chanceGame();
     }
 
