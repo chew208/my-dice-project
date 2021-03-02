@@ -7,9 +7,9 @@ public class Main {
 
 
     public static void main(String[] args){
-        Dice diceRoll = new Dice();
+        //Dice diceRoll = new Dice();
         RussianRoulette chance = new RussianRoulette();
-        diceRoll.dice();
+        //diceRoll.dice();
         chance.chanceGame();
     }
 
