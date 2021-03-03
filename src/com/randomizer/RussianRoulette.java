@@ -20,13 +20,15 @@ public class RussianRoulette {
 
         killShot = kill.nextInt(6) + 1;
 
-        //do {
+        do {
             if (killShot == finalChoice) {
                 System.out.println("BANG! You are dead.");
             } else {
                 System.out.println("You live to fight another day!");
             }
-        //} while (true);
+            System.out.println("You feelin lucky, punk!\n(Choose number 1-6)");
+            finalChoice = choice.nextInt();
+        } while (finalChoice != 0);
     }
 }
 
