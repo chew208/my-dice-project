@@ -26,7 +26,7 @@ public class RussianRoulette {
             } else {
                 System.out.println("You live to fight another day!");
             }
-            System.out.println("You feelin lucky, punk!\n(Choose number 1-6)");
+            System.out.println("\nYou feelin lucky, punk!\n(Choose number 1-6)\nEnter 0 to stop");
             finalChoice = choice.nextInt();
         } while (finalChoice != 0);
     }
